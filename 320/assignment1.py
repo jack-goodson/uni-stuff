@@ -1,3 +1,36 @@
+            #ASSIGNMENT DESCRIPTION#
+
+#   Problem: Shortest Cost Route to Navigate a Grid
+#   Consider a grid where each cell has a different cost to travel across the regions. Assume we can only travel
+#   and stop in straight lines between the corners of these cells. Note that the cost to travel along a border between
+#   two cells is the cheapest of the two. We want to find the cheapest route from the lower-left corner to the upper-right
+#   corner of the grid under these constraints.
+#
+#   For example in the following 3 × 3 grid, one of the cheapest routes of cost 2+3+4+2=11 is highlighted.
+#
+#   We will read in a sequence of problem instances. The first line will contain two positive integers n and m, 
+#   both at most 400, denoting the dimensions of the grid; here the number of rows is n and the number of columns is m. 
+#   We then are given n lines of m non-negative integers representing the costs for the cells. All integers will be 
+#   separated by spaces. The last problem instance will have values of n = m = 0, which is not processed.
+#
+#   SAMPLE INPUT
+#
+#   3 3
+#   0 6 2
+#   1 8 4
+#   2 3 7
+#   3 5 
+#   1 3 9 9 1 
+#   5 10 1 8 4
+#   2 7 8 2 6 
+#   00
+#
+#   SAMPLE OUTPUT
+#   11
+#   17
+
+
+
 import heapq
 
 inp = str(input())   # graph size
