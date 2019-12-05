@@ -1,10 +1,33 @@
 # ASSIGNMENT DESCRIPTION
 
-#This second assignment lets you get familiar with divide-and-conquer design and development. We would like you to 
-#implement an efficient divide-and-conquer algorithm to solve the Closest Pair prob- lem in plane as elaborated during the lecture. An O(n log n) solution is preferred since we have set the running time limit on the automated marker.
-There are 3 test cases whose sizes increase by 10 times. The first one contains 10,000 2D points, while the last largest one comprises of 1000,000 2D points. It is worth 5% of your total course marks. The first and second test cases have 2 marks each and the last has 1 mark.
-There will be a penalty if you exceed the submission limit. Therefore, please write a bruteforce algorithm and test your divide-and-conquer version with your own generated inputs before submitting to the automated marker.
+#   This second assignment lets you get familiar with divide-and-conquer design and development. We would like you to 
+#   implement an efficient divide-and-conquer algorithm to solve the Closest Pair prob- lem in plane as elaborated during
+#   the lecture. An O(n log n) solution is preferred since we have set the running time limit on the automated marker.
+#   There are 3 test cases whose sizes increase by 10 times. The first one contains 10,000 2D points, while the last largest
+#   one comprises of 1000,000 2D points. It is worth 5% of your total course marks. The first and second test cases have 2 
+#   marks each and the last has 1 mark.
 
+#   Test case description
+#   Your input will be a sequence of 2D points given on a line, coordinates are separated by one space. 
+#   The coordinates are integers. You should output the minimum squared Euclidean distance so that the 
+#   automated marker would not trouble with the double-precision.
+
+#   Sample Input 1:
+#   3 2 
+#   0 0 
+#   5 7
+#   0 2
+
+#   Sample Output 1:
+#   4
+
+#   Sample Input 2:
+#   -3 2
+#   -10 -100 
+#   -5 -7 
+#   0 2
+#   Sample Output 2:
+#   9
 
 
 def closest_pair(x,y):
