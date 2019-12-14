@@ -2,6 +2,7 @@ Course description...
 
 Computational biology is the development and application of computer algorithms and software to address scientific questions in the biological and life sciences, often using big data. This course includes probabilistic computer modelling, computer-based statistical inference and computer simulation for, and motivated from, the life sciences. It focuses on modeling and analysing real-world biological data with an emphasis on analysing DNA sequence data.
 
+learning outcomes
 
 be familiar with the basics of numerical computing
 
